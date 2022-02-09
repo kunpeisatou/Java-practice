@@ -51,7 +51,7 @@ class Main {
     
     
     
-    // -------------------------------
+    // ---------------------------------------------------------------------
     System.out.println(restart);
     
     
@@ -69,5 +69,71 @@ class Main {
     // 変数numberを出力してください
     System.out.println(number);
     
+    
+    // ---------------------------------------------------------------------
+    System.out.println(restart);
+    
+    int length = 6;
+    int height = 8;
+    
+    // 変数rectangleAreaに、四角形の面積を代入してください
+    int rectangleArea = length * height;
+    
+    // 変数rectangleAreaを出力してください
+    System.out.println(rectangleArea);
+    
+    // 変数triangleAreaに、三角形の面積を代入してください
+    int triangleArea = length * height / 2;
+    
+    // 変数triangleAreaを出力してください
+    System.out.println(triangleArea);
+    
+    
+    // ---------------------------------------------------------------------
+    System.out.println(restart);
+    
+     // double型の変数number1を定義し、8.5を代入してください。
+    double number01 = 8.5;
+    
+    // double型の変数number2を定義し、3.4を代入してください。
+    double number02 = 3.4;
+    
+    // number1にnumber2を足した値を出力してください
+    System.out.println(number1 + number2);
+    
+    // number1からnumber2を引いた値を出力してください
+    System.out.println(number1 - number2);
+    
+    
+    // ---------------------------------------------------------------------
+    System.out.println(restart);
+    System.out.println("!!自動型変換!!");
+    
+    int month = 12;
+    int date = 31;
+    
+    // 「12月31日」となるように変数と文字列を連結して出力してください
+    System.out.println(month+"月"+date+"日");
+    
+    // 7を2で割った値を出力してください
+    System.out.println(7/2);
+    
+    // 7.0を2.0で割った値を出力してください
+    System.out.println(7.0/2.0);
+    
+    // 7を2.0で割った値を出力してください
+    System.out.println(7/2.0);
+    
+    
+    // ---------------------------------------------------------------------
+    System.out.println(restart);
+    System.out.println("!!強制型変換!!");
+    
+    number1 = 7;
+    number2 = 2;
+    System.out.println(number1 / number2);
+    
+    // number1をdouble型にキャストし、number2で割った値を出力してください
+    System.out.println((double)number1 / number2);
   }
 }
