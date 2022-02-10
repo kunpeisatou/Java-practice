@@ -135,5 +135,54 @@ class Main {
     
     // number1をdouble型にキャストし、number2で割った値を出力してください
     System.out.println((double)number1 / number2);
+    
+   // ---------------------------------------------------------------------
+    System.out.println(restart);
+    System.out.println("!!復習!!");
+    
+    // 変数nameに、好きな名前を代入してください
+    String name = "佐藤";
+    
+    // 変数ageに、好きな年齢を代入してください
+    int age = 28;
+    
+    // 変数heightに、好きな身長を代入してください（例: 1.2）
+    double myHeight = 171.0;
+    
+    // 変数weightに、好きな体重を代入してください（例: 20.0）
+    double myWeight = 72.5;
+    
+    // 変数bmiに、BMIを計算して代入してください
+    double bmi = myWeight / myHeight / myHeight;
+    
+    // 名前、年齢、身長、体重、BMIに関する情報を出力してください
+    System.out.println("名前は"+name+"です");
+    System.out.println("年齢は"+age+"歳です");
+    System.out.println("身長は"+myHeight+"mです");
+    System.out.println("体重は"+myWeight+"kgです");
+    System.out.println("BMIは"+bmi+"です");
+    
+    
+    // ---------------------------------------------------------------------
+    System.out.println(restart);
+    System.out.println("!!真偽値・比較演算子!!");
+    
+      // 「true」を用いて、「真」を表す真偽値を出力してください
+    System.out.println(true);
+    
+    // 「false」を用いて、「偽」を表す真偽値を出力してください
+    System.out.println(false);
+    
+    // 「==」を用いて、値を比較した結果を出力してください
+    System.out.println(12 / 4 == 3);
+    
+    // 「!=」を用いて、値を比較した結果を出力してください
+    System.out.println(12 / 4 != 3);
+    
+    // 変数を定義し、値を比較した結果を代入してください
+    boolean bool = 3 * 9 == 27;
+    
+    // 変数boolの値を出力してください
+    System.out.println(bool);
   }
 }
