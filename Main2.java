@@ -1,168 +1,7 @@
 class Main {
   public static void main(String[] args) {
-    int number1 = 3;
-    
-    // int型の変数number2を定義し、7を代入してください
-    int number2 = 7;
-    
-    // number1 * number2を出力してください
-    System.out.println(number1*number2);
-    
-    // 変数textに「プログラミングを勉強しよう」を代入してください
-    String text = "プログラミングを勉強しよう";
-    
-    // 「Progateで」と変数textを連結して出力してください
-    System.out.println("毎日"+text);
-    
-    
-    String restart = "!!ここから!!";
-    // -------------------------------
-    System.out.println(restart);
-    
-
-    int number = 11;
-    
-    System.out.println(number);
-    System.out.println(text);
-    
-    // 変数numberを9で上書きしてください
-    number = 9;
-    
-    // 変数numberを出力してください
-    System.out.println(number);
-    
-    // 変数textを「Java」で上書きしてください
-    text = "Java";
-    
-    // 変数textを出力してください
-    System.out.println(text);
-    
-    // -------------------------------
-    System.out.println(restart);
-    
-    number = 3;
-    System.out.println(number);
-    
-    // 変数numberの値に7を足して、変数numberを上書きしてください
-    number = number+7;
-    
-    // 変数numberを出力してください
-    System.out.println(number);
-    
-    
-    
-    // ---------------------------------------------------------------------
-    System.out.println(restart);
-    
-    
-    number = 8;
-    
-    // 変数numberに7をかけて、変数numberを上書きしてください
-    number = number*7;
-    
-    // 変数numberを出力してください
-    System.out.println(number);
-    
-    // 変数numberの値に1を足して、変数numberを上書きしてください
-    number++;
-    
-    // 変数numberを出力してください
-    System.out.println(number);
-    
-    
-    // ---------------------------------------------------------------------
-    System.out.println(restart);
-    
-    int length = 6;
-    int height = 8;
-    
-    // 変数rectangleAreaに、四角形の面積を代入してください
-    int rectangleArea = length * height;
-    
-    // 変数rectangleAreaを出力してください
-    System.out.println(rectangleArea);
-    
-    // 変数triangleAreaに、三角形の面積を代入してください
-    int triangleArea = length * height / 2;
-    
-    // 変数triangleAreaを出力してください
-    System.out.println(triangleArea);
-    
-    
-    // ---------------------------------------------------------------------
-    System.out.println(restart);
-    
-     // double型の変数number1を定義し、8.5を代入してください。
-    double number01 = 8.5;
-    
-    // double型の変数number2を定義し、3.4を代入してください。
-    double number02 = 3.4;
-    
-    // number1にnumber2を足した値を出力してください
-    System.out.println(number1 + number2);
-    
-    // number1からnumber2を引いた値を出力してください
-    System.out.println(number1 - number2);
-    
-    
-    // ---------------------------------------------------------------------
-    System.out.println(restart);
-    System.out.println("!!自動型変換!!");
-    
-    int month = 12;
-    int date = 31;
-    
-    // 「12月31日」となるように変数と文字列を連結して出力してください
-    System.out.println(month+"月"+date+"日");
-    
-    // 7を2で割った値を出力してください
-    System.out.println(7/2);
-    
-    // 7.0を2.0で割った値を出力してください
-    System.out.println(7.0/2.0);
-    
-    // 7を2.0で割った値を出力してください
-    System.out.println(7/2.0);
-    
-    
-    // ---------------------------------------------------------------------
-    System.out.println(restart);
-    System.out.println("!!強制型変換!!");
-    
-    number1 = 7;
-    number2 = 2;
-    System.out.println(number1 / number2);
-    
-    // number1をdouble型にキャストし、number2で割った値を出力してください
-    System.out.println((double)number1 / number2);
-    
-   // ---------------------------------------------------------------------
-    System.out.println(restart);
-    System.out.println("!!復習!!");
-    
-    // 変数nameに、好きな名前を代入してください
-    String name = "佐藤";
-    
-    // 変数ageに、好きな年齢を代入してください
-    int age = 28;
-    
-    // 変数heightに、好きな身長を代入してください（例: 1.2）
-    double myHeight = 171.0;
-    
-    // 変数weightに、好きな体重を代入してください（例: 20.0）
-    double myWeight = 72.5;
-    
-    // 変数bmiに、BMIを計算して代入してください
-    double bmi = myWeight / myHeight / myHeight;
-    
-    // 名前、年齢、身長、体重、BMIに関する情報を出力してください
-    System.out.println("名前は"+name+"です");
-    System.out.println("年齢は"+age+"歳です");
-    System.out.println("身長は"+myHeight+"mです");
-    System.out.println("体重は"+myWeight+"kgです");
-    System.out.println("BMIは"+bmi+"です");
-    
-    
+     String restart = "!!ここから!!";
+     
     // ---------------------------------------------------------------------
     System.out.println(restart);
     System.out.println("!!真偽値・比較演算子!!");
@@ -249,7 +88,7 @@ class Main {
     System.out.println(restart);
     System.out.println("!!else, else if!!");
     
-    number = 12;
+    int number = 12;
     
     // numberが20より小さいとき、どちらでもないときの条件分岐を追加してください
     if (number < 10) {
@@ -356,5 +195,87 @@ class Main {
       System.out.println(j);
     }
     
+    
+    
+    // ---------------------------------------------------------------------
+    System.out.println(restart);
+    System.out.println("!!配列!!");
+    
+    
+    // 変数namesに、配列を代入してください
+    String[] names = {"太郎","二郎","三郎"};
+    
+    // インデックス番号が0の要素を出力してください
+    System.out.println(names[0]);
+    
+    // インデックス番号が2の要素を出力してください
+    System.out.println(names[2]);
+    
+    
+    
+    // ---------------------------------------------------------------------
+    System.out.println(restart);
+    System.out.println("!!配列の要素の上書き!!");
+    
+    
+    // 変数languagesを定義し、配列を代入してください
+    String[] languages = {"Ruby", "PHP", "Python"};
+    
+    // インデックス番号が「1」の要素を出力してください
+    System.out.println(languages[1]);
+    
+    // インデックス番号が「1」の要素を「Java」で上書きしてください
+    languages[1] = "Java";
+    
+    // インデックス番号が「1」の要素を出力してください
+    System.out.println(languages[1]);
+    
+    
+    
+    // ---------------------------------------------------------------------
+    System.out.println(restart);
+    System.out.println("!!配列と繰り返し!!");
+    
+    
+    // for文を用いて、「私の名前は◯◯です」と出力してください
+    for (int i2=0; i2 < names.length; i2++){
+      System.out.println("私の名前は"+names[i2]+"です");
+    }
+    
+    
+    
+    // ---------------------------------------------------------------------
+    System.out.println(restart);
+    System.out.println("!!配列用のfor文!!");
+    
+    // 配列用のfor文を用いて、「私の名前は◯◯です」と出力してください
+    for(String name:names){
+      System.out.println("私の名前は"+name+"です");
+    }
+    
+    
+    
+    
+    // ---------------------------------------------------------------------
+    System.out.println(restart);
+    System.out.println("!!復習!!");
+    
+    // 変数numbersに、与えられた数字の配列を代入してください
+    int[] numbers = {1, 4, 6, 9, 13, 16};
+    
+    int oddSum = 0;
+    int evenSum = 0;
+    
+    // for文を用いて、配列numbersの偶数の和と奇数の和を求めてください
+    for(int number03:numbers){
+      if(number03%2 == 1){
+        oddSum += number03;
+      }else{
+        evenSum += number03;
+      }
+    }
+
+    System.out.println("奇数の和は" + oddSum + "です");
+    System.out.println("偶数の和は" + evenSum + "です");
   }
 }
