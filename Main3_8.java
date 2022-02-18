@@ -1,4 +1,4 @@
-// java Main.java
+// java Main3_8.java
 import java.util.Scanner;
 
 class Main {
@@ -28,4 +28,3 @@ class Main {
     Person.printData(Person.fullName(firstName, lastName), age, height, weight);
   }
 }
-
